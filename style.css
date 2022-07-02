@@ -1,20 +1,25 @@
 .site-top {
     display: block;
+    background-color: bisque;
 }
 .site-nav {
     font-size: 20px;
 }
 
+.wrapper {
+    width: 70%;
+    margin: 0 auto;
+    background-color: #dbbc7c;
+    padding: 0 50px;
+}
+
 .nav-left {
-    position: absolute;
     top: 40px;
     left: 20px;
 }
 
 .nav-right {
-    position: absolute;
-    top: 40px;
-    right: 20px;
+    float: right;
 }
 
 .fa {
@@ -44,8 +49,14 @@
     color: white;
 }
 
+.hi {
+    text-align: center;
+}
+
 .about {
-    display: block;
+    display: grid;
+    grid-template-columns: 40% 40%;
+    
 }
 
 body {
