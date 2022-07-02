@@ -1,15 +1,16 @@
 .site-top {
     display: block;
-    background-color: bisque;
+    background-color: rgb(203, 217, 248);
+    padding: 30px;
 }
 .site-nav {
     font-size: 20px;
 }
 
 .wrapper {
-    width: 70%;
+    width: 90%;
     margin: 0 auto;
-    background-color: #dbbc7c;
+    background-color: #8999e0;
     padding: 0 50px;
 }
 
@@ -51,8 +52,12 @@
 
 .hi {
     text-align: center;
+    opacity: 0.5;
 }
 
+.hi h1:hover {
+    font-size: 50px;
+}
 .about {
     display: grid;
     grid-template-columns: 40% 40%;
