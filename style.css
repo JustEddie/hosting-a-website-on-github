@@ -16,6 +16,8 @@
 }
 
 .nav-left {
+    font-family: "Lobster";
+    font-size: 40px;
     top: 40px;
     left: 20px;
 }
