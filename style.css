@@ -1,3 +1,22 @@
+.site-top {
+    display: block;
+}
+.site-nav {
+    font-size: 20px;
+}
+
+.nav-left {
+    position: absolute;
+    top: 40px;
+    left: 20px;
+}
+
+.nav-right {
+    position: absolute;
+    top: 40px;
+    right: 20px;
+}
+
 .fa {
     padding: 12px;
     font-size: 30px;
@@ -23,6 +42,10 @@
 .fa-github {
     background: #24292f;
     color: white;
+}
+
+.about {
+    display: block;
 }
 
 body {
