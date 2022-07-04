@@ -1,4 +1,3 @@
-
 .site-top {
   display: block;
   background-color: rgb(203, 217, 248);
@@ -10,7 +9,6 @@
 
 .wrapper {
   width: 90%;
-  height: 1100px;
   margin: 0 auto;
   background-color: #8999e0;
   padding: 0 50px;
@@ -78,9 +76,9 @@ body {
 .about {
   background: rgb(203, 217, 248);
   padding: 20px;
-  height: 180px;
 }
-.about h1, .gallery h1 {
+.about h1,
+.gallery h1 {
   border: solid 1px black;
   padding: 7px;
   display: inline;
@@ -105,6 +103,7 @@ div.galleryPhoto {
   border: 1px solid rgb(203, 217, 248);
   float: left;
   width: 200px;
+  border-radius: 5px;
 }
 div.galleryPhoto:hover {
   border: 1px solid black;
@@ -114,6 +113,7 @@ div.galleryPhoto img {
   height: 200px;
 }
 div.description {
+  font-family: "Ubuntu";
   height: 40px;
   padding: 15px;
   text-align: center;
