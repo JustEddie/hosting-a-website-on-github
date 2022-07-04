@@ -24,7 +24,7 @@
 
 .nav-right {
   float: right;
-  font-family:monospace;
+  font-family: monospace;
   position: absolute;
   top: 3%;
   right: 8%;
@@ -75,7 +75,7 @@ body {
 }
 .about {
   background: rgb(203, 217, 248);
-  padding:20px 5px;
+  padding: 20px 5px;
 }
 .divHead {
   border: solid 1.5px black;
@@ -114,7 +114,7 @@ div.galleryPhoto img {
   border-radius: 10px 10px 0 0;
   width: 200px;
   height: 200px;
-  
+  object-fit: cover;
 }
 div.description {
   font-family: "Ubuntu";
@@ -129,4 +129,38 @@ body {
 footer {
   background: rgb(203, 217, 248);
   padding: 20px;
+}
+
+@media (max-width: 480px) {
+  .wrapper {
+    width: 100%;
+    padding: 0;
+  }
+  .nav-left {
+    font-size: 35px;
+    top: 3%;
+    left: 5%;
+  }
+  .nav-right span {
+    display: none;
+  }
+  .nav-right {
+    font-size: 15px;
+    top: 5%;
+  }
+  .about .article {
+    grid-template-columns: auto;
+    row-gap: 5%;
+  }
+  div .galleryPhoto {
+    width: 35%;
+    height: 35%;
+  }
+  div .galleryPhoto img {
+    width: 100%;
+    height: 70%;
+  }
+  div .description {
+    padding: 2px;
+  }
 }
