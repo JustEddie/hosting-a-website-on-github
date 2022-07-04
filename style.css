@@ -1,3 +1,4 @@
+
 .site-top {
   display: block;
   background-color: rgb(203, 217, 248);
@@ -9,7 +10,7 @@
 
 .wrapper {
   width: 90%;
-  height: 1000px;
+  height: 1100px;
   margin: 0 auto;
   background-color: #8999e0;
   padding: 0 50px;
@@ -85,17 +86,38 @@ body {
   display: inline;
 }
 .about .article {
+  font-family: "Ubuntu";
+  text-align: justify;
   display: grid;
+  grid-column-gap: 10%;
+  padding: 2% 10%;
   grid-template-columns: 40% 40%;
 }
 div article::first-letter {
   font-size: 150%;
 }
 .gallery {
-  height: 250px;
+  height: 400px;
   padding: 20px;
 }
-
+div.galleryPhoto {
+  margin: 30px 20px;
+  border: 1px solid rgb(203, 217, 248);
+  float: left;
+  width: 200px;
+}
+div.galleryPhoto:hover {
+  border: 1px solid black;
+}
+div.galleryPhoto img {
+  width: 200px;
+  height: 200px;
+}
+div.description {
+  height: 40px;
+  padding: 15px;
+  text-align: center;
+}
 body {
   background: #f5f5f5;
 }
