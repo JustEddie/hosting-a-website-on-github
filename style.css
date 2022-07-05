@@ -99,11 +99,11 @@ div article::first-letter {
   padding: 20px 5px;
 }
 div.galleryPhoto {
-  margin: 30px 20px;
+  margin: 6% 2.4%;
   border: 1px solid rgb(203, 217, 248);
   float: left;
   background: rgb(203, 217, 248);
-  width: 200px;
+  width: 20%;
   border-radius: 10px;
 }
 div.galleryPhoto:hover {
@@ -111,7 +111,7 @@ div.galleryPhoto:hover {
 }
 div.galleryPhoto img {
   border-radius: 10px 10px 0 0;
-  width: 200px;
+  width: 100%;
   height: 200px;
   object-fit: cover;
 }
@@ -139,8 +139,7 @@ footer a {
   }
   .nav-left {
     font-size: 35px;
-    top: 3%;
-    left: 5%;
+    position: inherit;
   }
   .nav-right span {
     display: none;
@@ -157,9 +156,13 @@ footer a {
     row-gap: 5%;
     padding: 8% 8%;
   }
+  .gallery {
+    height: 500px;
+  }
   div .galleryPhoto {
     width: 35%;
     height: 35%;
+    margin: 10% 7%
   }
   div .galleryPhoto img {
     width: 100%;
@@ -167,5 +170,39 @@ footer a {
   }
   div .description {
     padding: 0;
+  }
+}
+
+@media (min-width: 481px) and (max-width:768px) {
+  .nav-left {
+    position: inherit;
+  }
+  .gallery {
+    height: 1000px;
+  }
+  .nav-right span {
+    display: none;
+  }
+  div .galleryPhoto {
+    width: 39%;
+    height: 36%;
+    margin: 10% 5%;
+  }
+  div .galleryPhoto img {
+    width: 100%;
+    height: 70%;
+  }
+  div .description {
+    padding: 0;
+  }
+}
+
+@media (min-width:769px) and (max-width:1024px) {
+  div .galleryPhoto {
+    width: 20%;
+    margin: 8% 2.3%;
+  }
+  div .galleryPhoto img {
+    width: 100%;
   }
 }
