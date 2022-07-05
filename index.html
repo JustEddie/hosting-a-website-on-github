@@ -7,7 +7,8 @@
     <meta property="title" content="JustEddie" />
     <meta property="image" content="image.png" />
     <link rel="stylesheet" href="style.css" />
-    <!--<script src="script.js"></script>-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="script.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -21,8 +22,6 @@
     />
     <title>My Website</title>
   </head>
-  <!--배경에 색 어둡게 넣고 섹션마다 배경넣기 
-사진 블러한거- 하얀색 - 사진블러한거-->
   <body>
     <div class="wrapper">
       <div class="site-top">
@@ -54,7 +53,7 @@
           <h1 id="greeting">Nice to meet you!</h1>
           <h1 id="greeting">Welcome to my site!</h1>
         </div>
-        
+
         <div class="about" id="about">
           <h1 class="divHead" id="divHead">ABOUT ME</h1>
           <div class="article">
@@ -74,7 +73,7 @@
             </article>
           </div>
         </div>
-        
+
         <div class="gallery">
           <h1 class="divHead" id="divHead">THINGS I LIKE</h1>
           <div></div>
@@ -101,7 +100,6 @@
               />
             </a>
             <div class="description">Dogs</div>
-            
           </div>
           <div class="galleryPhoto">
             <a
@@ -114,16 +112,16 @@
               />
             </a>
             <div class="description">Cats</div>
-          </div>  
+          </div>
           <div class="galleryPhoto">
             <a
-            target="_blank"
-            href="https://assets-prd.ignimgs.com/2022/05/24/thor-love-and-thunder-button-1653360890011.jpg"
+              target="_blank"
+              href="https://assets-prd.ignimgs.com/2022/05/24/thor-love-and-thunder-button-1653360890011.jpg"
             >
-            <img
-              src="https://assets-prd.ignimgs.com/2022/05/24/thor-love-and-thunder-button-1653360890011.jpg"
-              alt="Thor"
-            />
+              <img
+                src="https://assets-prd.ignimgs.com/2022/05/24/thor-love-and-thunder-button-1653360890011.jpg"
+                alt="Thor"
+              />
             </a>
             <div class="description">Thor</div>
           </div>
@@ -144,5 +142,10 @@
         </div>
       </footer>
     </div>
+    <script>
+      ScrollReveal().reveal(".divHead");
+      ScrollReveal().reveal(".article", {delay: 500});
+      ScrollReveal().reveal(".galleryPhoto", { delay: 500 });
+    </script>
   </body>
 </html>
