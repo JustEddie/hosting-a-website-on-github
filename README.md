@@ -14,6 +14,36 @@ Using HTML, CSS and Github to build a website and host
 
 ### Skills :
 
+#### Imported Google Fonts
+![website logo](/image/Logo-font.PNG)
+* I used fonts imported from Google Fonts
+```
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster&family=Ubuntu:wght@300&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+```
+
+#### Imported JavaScript
+* Imported ScrollReveal effect is used for hi messages , h1, and gallery photos
+```
+<script src="https://unpkg.com/scrollreveal"></script>
+```
+```
+<script>
+      ScrollReveal().reveal(".divHead");
+      ScrollReveal().reveal(".article", {delay: 500});
+      ScrollReveal().reveal(".galleryPhoto", { delay: 500 });
+    </script>
+```
+
 #### hover effect
 ![intro hi messages with hover effect](/image/intro-hover.PNG)
 * Those HI messages grow bigger and change color slowly with hover.
@@ -53,8 +83,8 @@ Using HTML, CSS and Github to build a website and host
     href="https://github.com/JustEddie" 
     class="fa fa-github">
 </a>
->    ```
-with hover effect of opacity: 0.7
+```
+* with hover effect of opacity: 0.7
 ```
 .fa:hover {
   opacity: 0.7;
@@ -63,7 +93,7 @@ with hover effect of opacity: 0.7
 #### Responsive Web Design
 * It looks like this on phone :
 ![website on phonescreen](/image/responsive-phone.PNG)
-*used @media query
+* used @media query
 ```
 @media (max-width: 480px) {
   .wrapper {
@@ -115,4 +145,5 @@ with hover effect of opacity: 0.7
   }
 }
 ```
+
 ### Advanced Feature :
