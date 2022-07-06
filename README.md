@@ -16,15 +16,15 @@ Using HTML, CSS and Github to build a website and host
 
 #### hover effect
 ![intro hi messages with hover effect](/image/intro-hover.PNG)
->*Those HI messages grow bigger and change color slowly with hover.
->    >
->    ><div class="hi">
-          <h1 id="greeting">Hi, I'm Eddie!</h1>
-          <h1 id="greeting">Nice to meet you!</h1>
-          <h1 id="greeting">Welcome to my site!</h1>
-        </div>
->    >```
->    >```
+* Those HI messages grow bigger and change color slowly with hover.
+```
+<div class="hi">
+<h1 id="greeting">Hi, I'm Eddie!</h1>
+<h1 id="greeting">Nice to meet you!</h1>
+<h1 id="greeting">Welcome to my site!</h1>
+</div>
+```
+```
 .hi {
   color: rgb(203, 217, 248);
   font-family: "Lobster", cursive;
@@ -37,11 +37,11 @@ Using HTML, CSS and Github to build a website and host
   transition: all 0.4s ease;
   -webkit-transition: all 0.8s ease;
 }
->    >```
+```
 ![social network icons with hover effect](/image/contact-hover.PNG)
->*Those social network icons connects to link
->    >```
->    ><a
+* Those social network icons connects to link
+```
+<a
     href="https://www.linkedin.com/in/yejin-na-918748233/"
     class="fa fa-linkedin"
 ></a>
@@ -61,7 +61,7 @@ with hover effect of opacity: 0.7
 }
 ```
 #### Responsive Web Design
-It looks like this on phone :
+* It looks like this on phone :
 ![website on phonescreen](/image/responsive-phone.PNG)
 *used @media query
 ```
