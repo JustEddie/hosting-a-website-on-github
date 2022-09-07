@@ -5,6 +5,12 @@ Link: https://justeddie.github.io/hosting-a-website-on-github/
 
 (Last Updated:06/07/22)
 
+### 💻 Used Stacks 💻
+
+
+<img src="https://img.shields.io/badge/html-E34F26?style=for-the-badge&logo=HTML5&logoColor=white">
+<img src="https://img.shields.io/badge/css-1572B6?style=for-the-badge&logo=CSS3&logoColor=white">
+
 ### It Looks Like :
 ![website overview photo](/image/website-overview.PNG)
 
